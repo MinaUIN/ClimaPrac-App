@@ -7,6 +7,20 @@
     android:background="@color/purple_200"
     tools:context=".Ciudades">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Button" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
@@ -15,22 +29,6 @@
         android:text="@string/texto_bienvenida"
         android:textColor="@color/color_grados"
         android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/bFcp"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/texto_boton_fcp"
-        android:textColor="#DC3F85" />
-
-    <Button
-        android:id="@+id/bTulum"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/texto_boton_tulum"
-        android:textColor="#DC3F85" />
 
     <Button
         android:id="@+id/bCancun"
@@ -46,6 +44,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/texto_boton_cozumel"
+        android:textColor="#DC3F85" />
+
+    <Button
+        android:id="@+id/bFcp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_fcp"
+        android:textColor="#DC3F85" />
+
+    <Button
+        android:id="@+id/bTulum"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_tulum"
         android:textColor="#DC3F85" />
 
 </LinearLayout>
