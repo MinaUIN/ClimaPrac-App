@@ -22,12 +22,12 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        val ciudad = intent.getStringExtra("com.abiturriza.appclima.ciudades.CIUDAD")
+        val ciudad = intent.getStringExtra("com.romiuin.appclima.ciudades.CIUDAD")
 
         val ciudadfcp = Ciudad("Felipe Carrillo Puerto", 30, "Soleado")
-        val ciudadtulum = Ciudad("Tulum", 28, "Cielo Despejado")
-        val ciudadcancun = Ciudad("Cancún", 32, "Mayormente Soleado")
-        val ciudadcozumel = Ciudad("Cozumel", 22, "Parcialmente Nublado")
+        val ciudadtulum = Ciudad("Chetumal", 28, "Cielo Despejado")
+        val ciudadcancun = Ciudad("Bacalar", 32, "Mayormente Soleado")
+        val ciudadcozumel = Ciudad("Kantunilkin", 22, "Parcialmente Nublado")
 
         if(ciudad == "ciudad-fcp") {
             //mostrar informacion de fcp
@@ -35,19 +35,19 @@ class MainActivity : AppCompatActivity() {
             tvGrados?.text = ciudadfcp.grados.toString() + "°"
             twEstatus?.text = ciudadfcp.estatus
 
-        }else if (ciudad == "ciudad-tulum") {
+        }else if (ciudad == "ciudad-Chetumal") {
             //mostrar informacion de fcp
             twCiudad?.text = ciudadtulum.nombre
             tvGrados?.text = ciudadtulum.grados.toString() + "°"
             twEstatus?.text = ciudadtulum.estatus
 
-        }else if (ciudad == "ciudad-cancun") {
+        }else if (ciudad == "ciudad-Bacalar") {
             //mostrar informacion de fcp
             twCiudad?.text = ciudadcancun.nombre
             tvGrados?.text = ciudadcancun.grados.toString() + "°"
             twEstatus?.text = ciudadcancun.estatus
 
-        }else if (ciudad == "ciudad-cozumel") {
+        }else if (ciudad == "ciudad-Kantunilkin") {
             //mostrar informacion de fcp
             twCiudad?.text = ciudadcozumel.nombre
             tvGrados?.text = ciudadcozumel.grados.toString() + "°"

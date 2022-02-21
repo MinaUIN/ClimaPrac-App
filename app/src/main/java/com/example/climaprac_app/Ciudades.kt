@@ -10,16 +10,16 @@ import androidx.core.content.ContextCompat.startActivity
 
 class Ciudades : AppCompatActivity(){
 
-    val TAG = "com.abiturriza.appclima.ciudades.CIUDAD"
+    val TAG = "com.romiuin.appclima.ciudades.CIUDAD"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ciudades)
 
         val bFcp = findViewById<Button>(R.id.bFcp)
-        val bTulum = findViewById<Button>(R.id.bTulum)
-        val bCancun = findViewById<Button>(R.id.bCancun)
-        val bCozumel = findViewById<Button>(R.id.bCozumel)
+        val bTulum = findViewById<Button>(R.id.bChetumal)
+        val bCancun = findViewById<Button>(R.id.bBacalar)
+        val bCozumel = findViewById<Button>(R.id.bKantunilkin)
 
         bFcp.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, MainActivity::class.java)
@@ -29,17 +29,17 @@ class Ciudades : AppCompatActivity(){
         })
         bTulum.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-tulum")
+            intent.putExtra(TAG, "ciudad-Chetumal")
             startActivity(intent)
         })
         bCancun.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-cancun")
+            intent.putExtra(TAG, "ciudad-Bacalar")
             startActivity(intent)
         })
         bCozumel.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra(TAG, "ciudad-cozumel")
+            intent.putExtra(TAG, "ciudad-Kantunilkin")
             startActivity(intent)
         })
     }
