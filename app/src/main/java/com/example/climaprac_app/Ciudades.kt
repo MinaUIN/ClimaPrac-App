@@ -9,7 +9,7 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
 
 class Ciudades : AppCompatActivity(){
-
+//Romina
     val TAG = "com.romiuin.appclima.ciudades.CIUDAD"
 
     override fun onCreate(savedInstanceState: Bundle?) {

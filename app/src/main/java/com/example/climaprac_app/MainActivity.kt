@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
             twCiudad?.text = ciudadcancun.nombre
             tvGrados?.text = ciudadcancun.grados.toString() + "°"
             twEstatus?.text = ciudadcancun.estatus
-
+//Arreglado
         }else if (ciudad == "ciudad-Kantunilkin") {
             //mostrar informacion de fcp
             twCiudad?.text = ciudadcozumel.nombre
